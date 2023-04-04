@@ -17,8 +17,26 @@
     position: absolute;
     width: 20%;
     height: 20%;
-    top: 15%;
+    top: 5%;
     left: 20%;
+}
+
+.heading1 .sdt {
+    position: absolute;
+    background-color: #2D8C15;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    top: 10%;
+    right: 20%;
+
+}
+
+.gachchan {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 2px solid palevioletred;
 }
 
 .heading2 {
