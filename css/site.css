@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading1 {
+    background-color: red;
+}
+
+.heading1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading1 .logo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 20%;
+}
+
+.heading2 {
+    background-color: blue;
+}
+
+.heading3 {
+    background-color: green;
+}
+
+.heading4 {
+    background-color: yellow;
+}
