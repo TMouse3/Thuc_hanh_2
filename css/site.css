@@ -5,7 +5,11 @@
 
 .heading {
     background-image: url(/images/head-background.jpg);
-    height: 100vh;
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 
 .heading1 {
@@ -33,4 +37,193 @@
     right: 18%;
     border-radius: 5px;
     padding: 10px 50px;
+}
+
+.heading .border {
+    background-color: #678B37;
+    padding: 20px;
+    text-align: center;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 5%;
+    border: 10px solid #CED086;
+    position: relative;
+    left: -15%;
+}
+
+.heading button {
+    background-color: #C5D301;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-size: large;
+}
+
+.heading .nutdangky {
+    padding-bottom: 10%;
+}
+
+.heading button:hover {
+    background-color: rgb(92, 109, 24);
+}
+
+.heading h1 {
+    color: white;
+    padding: 10px;
+}
+
+.heading p {
+    font-size: large;
+    color: white;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+
+.heading .form-control {
+    background-color: #678B37;
+    border: 1px groove #678B37;
+    border-bottom: 10px ridge #678B37;
+    font-size: x-large;
+}
+
+.heading ::placeholder {
+    color: white;
+    font-size: medium;
+    text-align: left center;
+}
+
+.heading .ten {
+    padding-bottom: 5px;
+}
+
+.heading .SDT {
+    padding-bottom: 5px;
+}
+
+.between {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+
+.between-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.between img {
+    border: 3px dashed #2D8C15;
+    border-radius: 16px;
+    width: 90%;
+    height: 90%;
+}
+
+.noidung {
+    font-weight: bold;
+    margin-left: -15%;
+    text-align: justify;
+}
+
+.between h3 {
+    text-align: center;
+    color: #2D8C15;
+    font-weight: bold;
+}
+
+.between p {
+    font-size: large;
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.between-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.noidung2 {
+    font-weight: bold;
+   margin-left: 8%;
+    text-align: justify;
+}
+
+.between-2 img {
+    margin-left: -10%;
+}
+
+.between-next {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #81AF53;
+    gap: 5%;
+    padding: 2% 15%;
+}
+
+.between-next h2 {
+    color: white;
+    border-bottom: 3px solid white;
+    padding-right: 60px;
+    
+}
+
+.between-next p {
+    margin-top: 3%;
+    color: white;
+    font-size: large;
+    text-align: justify;
+}
+
+.after {
+    margin-top: 1px;
+    background-color: #DCE085;
+}
+
+.after h1 {
+    text-align: center;
+    color: #2A6E01;
+    padding-top: 2%;
+}
+
+.bang2 {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    position: relative;
+    left: 20%;
+    gap: 3%;
+}
+
+.bang2 ::placeholder {
+    color: black;
+    font-size: medium;
+    text-align: left center;
+}
+
+.bang2 .form-control {
+    font-size: xx-large;
+}
+
+.bang2 button {
+    background-color: #2A6E01;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 393px;
+    height: 37px;
+}
+
+.bang2 .email {
+    margin-top: 2%;
+}
+
+.bang2 button {
+    margin-top: 2%;
 }
