@@ -227,3 +227,7 @@
 .bang2 button {
     margin-top: 2%;
 }
+
+.bang2 button:hover {
+    background-color:  #3c4e30;
+}
