@@ -155,7 +155,7 @@
 }
 
 .between-2 img {
-    margin-left: -10%;
+    margin-left: -20%;
 }
 
 .between-next {
@@ -197,7 +197,7 @@
     flex-direction: row;
     padding: 3%;
     position: relative;
-    left: 20%;
+    left: 30%;
     gap: 3%;
 }
 
